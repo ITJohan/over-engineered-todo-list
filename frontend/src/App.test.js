@@ -2,8 +2,14 @@ import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders hello world', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Hello world/i);
-  expect(linkElement).toBeInTheDocument();
-});
+describe('App', () => {
+  test('renders', () => {
+    render(<App />);
+  });
+
+  test('renders navbar', () => {
+    render(<App />);
+    const navbar = screen.getByRole('navigation');
+    expect(navbar).toBeInTheDocument();
+  })
+})

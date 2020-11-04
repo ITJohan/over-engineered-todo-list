@@ -1,4 +1,4 @@
-# Over Engineered Todo List
+# Over Engineered TODO List
 
 ## Purpose
 The purpose of this project is to learn the following technologies:
