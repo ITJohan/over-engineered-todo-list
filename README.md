@@ -20,7 +20,7 @@ These will be done by implementing a todo list where the user can:
 5. Mark todos as done
 
 This is the todo list for the todo list:
-1. Create GitHub repository
+1. <s>Create GitHub repository</s>
 2. Setup CI/CD pipline with Jenkins and SonarQube
 2. Implement a frontend with React (without backend-calls)
 3. Implement a REST API with Spring Boot using only in-memory todos
