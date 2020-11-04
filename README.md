@@ -21,7 +21,6 @@ These will be done by implementing a todo list where the user can:
 
 This is the todo list for the todo list:
 1. <s>Create GitHub repository</s>
-2. Setup CI/CD pipline with Jenkins and SonarQube
 2. Implement a frontend with React (without backend-calls)
 3. Implement a REST API with Spring Boot using only in-memory todos
 4. Connect the backend and frontend
@@ -33,3 +32,4 @@ This is the todo list for the todo list:
     1. Implement authentication using Spring Security + Azure AD / Google / Facebook
     2. Implement authorization
 10. Implement a mobile frontend with React Native
+11. Setup CI/CD pipline with Jenkins and SonarQube
