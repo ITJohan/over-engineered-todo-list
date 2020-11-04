@@ -9,7 +9,7 @@ describe('NavBar', () => {
 
   test('renders logo', () => {
     render(<NavBar />);
-    const logo = screen.getByText('✔️Over-Engineered Todo List');
+    const logo = screen.getByText('Over-Engineered Todo List');
     expect(logo).toBeInTheDocument();
   })
 });
