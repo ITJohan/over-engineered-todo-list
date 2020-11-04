@@ -1,16 +1,26 @@
 import NavBar from './components/NavBar';
-import Todo from './components/Todo'; // REMOVE
+import TodoList from './components/TodoList';
+
+const todos = [
+  {
+    id: 1,
+    content: 'Buy groceries'
+  },
+  {
+    id: 2,
+    content: 'Do laundry'
+  },
+  {
+    id: 3,
+    content: 'Go shopping'
+  }
+];
 
 const App = () => {
   return (
     <div>
       <NavBar />
-      <Todo
-        text='Buy groceries'
-      />
-      <Todo
-        text='Do laundry'
-      />
+      <TodoList todos={todos} />
     </div>
   );
 }

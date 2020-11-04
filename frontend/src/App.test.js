@@ -12,4 +12,10 @@ describe('App', () => {
     const navbar = screen.getByRole('navigation');
     expect(navbar).toBeInTheDocument();
   })
+
+  test('renders todo list', () => {
+    render(<App />);
+    const todoList = screen.getByLabelText('Todo list');
+    expect(todoList).toBeInTheDocument();
+  })
 })

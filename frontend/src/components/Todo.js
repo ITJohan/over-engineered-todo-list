@@ -13,15 +13,16 @@ const styles = {
 
 /**
  * Todo component with drag icon, checkbox, todo and delete button
- * @param {Object} props
- * @param {string} props.text - Todo text  
+ * @param {{
+ *  content: string
+ * }}
  */
-const Todo = ({ text }) => {
+const Todo = ({ content }) => {
   return (
     <div style={styles.container}>
       <ListIcon style={styles.item} aria-label='Drag icon' />
       <input style={styles.item} type='checkbox' />
-      <p style={styles.item}>{text}</p>
+      <p style={styles.item}>{content}</p>
       <DeleteIcon style={styles.item} aria-label='Delete button' />
     </div>
   );
